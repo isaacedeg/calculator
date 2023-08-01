@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300&family=Narnoor&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/427a046e82.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <div class="text" id="takeover"></div>
+                <div class="subtext" id="makeup"></div>
+            </div>
+            <div class="lower">
+                <div class="boxes">
+                    <button class="number" id="cen" onclick="ring('')">C</button>
+                    <button class="number" id="display">+/-</button>
+                    <button class="number" id="display" onclick="getOutput()"><i class="fa-solid fa-delete-left" style="color: #ffffff;"></i></button>
+                    <button class="exception" id="display" onclick="sign('/')"><i class="fa-solid fa-divide" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="boxes">
+                    <button class="number" onclick="player(7)">7</button>
+                    <button class="number" onclick="player(8)">8</button>
+                    <button class="number" onclick="player(9)">9</button>
+                    <button class="exception" onclick="sign('*')"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="boxes">
+                    <button class="number" onclick="player(4)">4</button>
+                    <button class="number" onclick="player(5)">5</button>
+                    <button class="number" onclick="player(6)">6</button>
+                    <button class="exception" onclick="sign('-')"><i class="fa-solid fa-minus" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="boxes">
+                    <button class="number" onclick="player(1)">1</button>
+                    <button class="number" onclick="player(2)">2</button>
+                    <button class="number" onclick="player(3)">3</button>
+                    <button class="exception" onclick="sign('+')"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="boxes">
+                    <button class="number" id="extra" onclick="player(0)">0</button>
+                    <button class="number" onclick="player('.')">.</button>
+                    <button class="number" id="basic" onclick="result()">=</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: -5px;
+}
+body{
+    overflow: hidden;
+    font-family: 'Geologica';
+}
+.heading{
+    width: 33%;
+   
+    height: 189px;
+    background-image: linear-gradient(160deg, #230161, #040563);
+    margin-left: auto;
+    margin-right: auto;
+}
+.lower{
+    background-color: #3d444d;
+    width: 33%;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 440px;
+}
+.boxes{
+    display: flex;
+    width: 100%;
+}
+.number{
+    background-color: #3d444d;
+    color: white;
+    width: 30%;
+    height: 88px;
+    font-size: 20px;
+    
+    border: 0.1px inset #000000;
+    cursor: pointer;
+}
+.number:hover{
+    background-color: lightblue;
+}
+.exception{
+    width: 30%;
+    background-color: #d30707;
+    font-size: 20px;
+    border: 0.1px inset #000000;
+    cursor: pointer;
+    
+}
+.exception:hover{
+    background-color: deepskyblue;
+}
+
+#extra{
+    width: 61%;
+}
+#basic{
+    background-color: #d30707;
+    font-size: 30px;
+    border: 0.1px inset #000000;
+    cursor: pointer;
+}
+#basic:hover{
+    background-color: deepskyblue;
+}
+#display{
+    border-top: none;
+}
+#cen{
+    border-top: none;
+    border-left: none;
+}
+.text{
+    padding-top: 69px;
+    color: #10ffff;
+    
+    font-size: 23px;
+    text-align: right;
+}
+.subtext{
+    color: #10ffff;
+    font-size: 30px;
+    font-weight: 15;
+    padding-top: 50px;
+    line-height: 0px;
+    text-align: right;
+}
