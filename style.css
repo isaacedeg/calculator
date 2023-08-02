@@ -91,6 +91,6 @@ body{
     .container{
         width: 250%;
         position: relative;
-        left: -100px;
+        left: -500px;
     }
 }
