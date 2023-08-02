@@ -87,10 +87,10 @@ body{
     line-height: 0px;
     text-align: right;
 }
-@media screen and (max-width: 930px){
+@media screen and (max-width: 640px){
     .container{
         width: 250%;
         position: relative;
-        left: -50px;
+        left: -500px;
     }
 }
