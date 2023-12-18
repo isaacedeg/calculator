@@ -91,11 +91,14 @@ body{
 @media (max-width: 50em){
     .container{
         width: 90%;
-        margin-top: 5px;
+        margin-top: 13px;
     }
     .lower{
         margin-left: 15px;
         width: 90%;
+    }
+    #extra{
+        width: 71%;
     }
     .heading{
         margin-left: 15px;
