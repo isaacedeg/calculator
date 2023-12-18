@@ -12,7 +12,6 @@ body{
 }
 .heading{
     width: 33%;
-   
     height: 189px;
     background-image: linear-gradient(160deg, #230161, #040563);
     margin-left: auto;
@@ -91,17 +90,25 @@ body{
 }
 @media (max-width: 50em){
     .container{
-        width: 100%;
-        margin-top: 5px;
-        overflow: visible;
+        width: 90%;
+        margin-top: 13px;
     }
     .lower{
         margin-left: 15px;
         width: 90%;
     }
+    #extra{
+        width: 62%;
+    }
     .heading{
         margin-left: 15px;
         width: 90%;
+        height: 150px;
     }
-
+    .text{
+        padding-top: 35px;
+    }
+    .subtext{
+        padding-top: 40px;
+    }
 }
