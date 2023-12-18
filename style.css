@@ -7,6 +7,8 @@
 body{
     overflow: hidden;
     font-family: 'Geologica';
+    background-image: linear-gradient(270deg, crimson, darkred, lightskyblue, lightslategray, lightslategrey);
+    
 }
 .heading{
     width: 33%;
@@ -87,10 +89,18 @@ body{
     line-height: 0px;
     text-align: right;
 }
-@media screen and (max-width: 540px){
+@media (max-width: 50em){
     .container{
-        width: 250%;
-        position: relative;
-        left: -100px;
+        width: 100%;
+        margin-top: 65px;
     }
+    .lower{
+        margin-left: 35px;
+        width: 80%;
+    }
+    .heading{
+        margin-left: 35px;
+        width: 80%;
+    }
+
 }
