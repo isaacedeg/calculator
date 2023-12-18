@@ -92,7 +92,7 @@ body{
 @media (max-width: 50em){
     .container{
         width: 100%;
-        margin-top: 65px;
+        margin-top: 20px;
     }
     .lower{
         margin-left: 35px;
