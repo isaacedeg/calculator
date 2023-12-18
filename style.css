@@ -92,15 +92,16 @@ body{
 @media (max-width: 50em){
     .container{
         width: 100%;
-        margin-top: 65px;
+        margin-top: 5px;
+        overflow: visible;
     }
     .lower{
-        margin-left: 35px;
-        width: 80%;
+        margin-left: 15px;
+        width: 90%;
     }
     .heading{
-        margin-left: 35px;
-        width: 80%;
+        margin-left: 15px;
+        width: 90%;
     }
 
 }
